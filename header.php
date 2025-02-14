@@ -4,13 +4,15 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
-    <!-- add our CSS -->
+    <!-- add custom CSS to style pages -->
      <link rel="stylesheet" href="<?php echo esc_url(home_url('wp-content/themes/assignmentone/css/custom-style.css')); ?>">
 </head>
 <body <?php body_class(); ?>>
     <header class="default-header">
         <div>
             <a href="<?php echo esc_url(home_url()); ?>">
+
+            <!-- add logo -->
                 <img src="<?php echo esc_url(home_url('wp-content/uploads/2025/02/logo.png'))?>" alt="header logo">
             </a>
         </div>

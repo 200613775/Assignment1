@@ -1,0 +1,27 @@
+/* add css to stle homepage by color, background colcor, font-family, margin, padding and so on */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightgrey;
+    margin: 0;
+   padding: 10px;
+}
+
+header {
+    background-color: rgb(201, 199, 199);
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    margin-top: 10px;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color:rgb(201, 199, 199);
+    padding: 10px;
+}

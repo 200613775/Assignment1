@@ -6,14 +6,14 @@
     get_header();
 
 ?>
-<section class="home-row1" style= "background-image: url('<?php echo wp_kses_post(the_field('asignment1_row1_image')); ?>')">
+<section class="home-row1" style= "background-image: url('<?php echo wp_kses_post(the_field('assignment1_row1_image')); ?>')">
     <div>
         <h1><?php echo wp_kses_post(the_field('assignmnet1_row1_title')); ?></h1>
     </div>
 
 </section>
 <section class="home-row2">
-<h3><?php echo wp_kses_post(the_field('assignment1_row2_title')); ?></h3>
+<h2><?php echo wp_kses_post(the_field('assignment1_row2_title')); ?></h2>
 <p><?php echo wp_kses_post(the_field('assignment1_row1_text')); ?></p>
 </section>
 
