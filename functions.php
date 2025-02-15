@@ -1,5 +1,5 @@
 <?php 
-//add function
+//add function to setup theme
 function customtheme_theme_setup(){
     register_nav_menus(array(
         'header' => 'Header menu',
@@ -7,6 +7,6 @@ function customtheme_theme_setup(){
     ));
 }
 add_action('after_setup_theme', 'customtheme_theme_setup');
-//add support for our featured images
+//add support for featured images
 add_theme_support('post-thumbnails');
 ?>
